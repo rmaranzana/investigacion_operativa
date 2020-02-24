@@ -17,7 +17,8 @@ Este repositorio contiene casos prácticos, implementaciones didácticas y ejerc
 * [Caso Carrefour II: Fila EXP/EXP/S con Montecarlo](https://github.com/open-studIO/casos_practicos/blob/master/filas_de_espera/ejemplo_carrefour/simulacion_fila_compleja.ipynb)
 
 ### Optimización
-* [Algoritmo Simplex]() [TODO]
+> TODO Terminar Simplex
+* [Algoritmo Simplex]() [https://github.com/open-studIO/casos_practicos/blob/master/optimizacion_lp_milp/simplex_base.ipynb]
 * [Algoritmo Simplex matricial]() [TODO]
 * [Optimización de plan agregado de Producción](https://github.com/open-studIO/casos_practicos/blob/master/optimizacion_lp_milp/ejemplo_pcp/planificacion_agregada.ipynb)
 * [Asignación óptima de alumnos a cursos](https://github.com/open-studIO/casos_practicos/tree/master/optimizacion_lp_milp/ejemplo_asignacion_cursos)
