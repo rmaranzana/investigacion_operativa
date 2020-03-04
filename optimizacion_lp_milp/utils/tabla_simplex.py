@@ -34,7 +34,8 @@ def visualizar_tabla(variables, base, cj, bk, Aij, zj, zj_cj, bk_aij, costo_tota
         color[:, pivote[1] + 3] = 'yellow'
 
     # Construir y printear tabla:
-    layout = go.Layout(margin=go.layout.Margin(l=25, r=25, b=0, t=25, pad=2),
+    layout = go.Layout(height=250,
+                       margin=go.layout.Margin(l=25, r=25, b=0, t=25, pad=0),
                        autosize=False)
     fig = go.Figure(data=[go.Table(header=dict(values=header_values),
                                    cells=dict(values=cells_values,
