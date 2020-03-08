@@ -1,6 +1,8 @@
 from plotly import graph_objs as go
 from copy import deepcopy as copy
 import numpy as np
+np.set_printoptions(edgeitems=30, linewidth=100000,
+    formatter=dict(float=lambda x: "%.3g" % x))
 
 
 class TablaSIMPLEX:
@@ -81,14 +83,16 @@ class TablaSIMPLEX:
 
     def actualizar_pivote(self, pivote):
         # Color base:
-        color = np.chararray((len(self.submatrix.color), len(self.submatrix.color[0])), itemsize=6, unicode=True)
+        color = np.chararray((len(self.submatrix.fill.color), len(self.submatrix.fill.color[0])), itemsize=6, unicode=True)
         color[:] = 'white' # TEMPORAL
 
-        color[pivote[0] + 3, :] = 'yellow'
-        color[:, pivote[1] + 1] = 'yellow'
+        color[pivote[0] + 1, :] = 'yellow'
+        color[:, pivote[1] + 3] = 'yellow'
+
+        color = color.transpose()
 
         # Reemplazar color:
-        self.submatrix.color = color.tolist()
+        self.submatrix.fill.color = color.tolist()
 
 
 class ConstructorTablasSIMPLEX:
@@ -103,7 +107,7 @@ class ConstructorTablasSIMPLEX:
         nueva_tabla.actualizar_bk_Aij(bk_Aij)
         nueva_tabla.actualizar_base(base)
         nueva_tabla.actualizar_costo(costo_tot)
-#         nueva_tabla.actualizar_pivote((4, 1)) ANDA MAL
+        nueva_tabla.actualizar_pivote(pivote) if pivote != None else None
 
         return nueva_tabla
 
