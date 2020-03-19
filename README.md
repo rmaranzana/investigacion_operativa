@@ -5,10 +5,10 @@ Este repositorio contiene casos prácticos, implementaciones didácticas y ejerc
 ## Contenido:
 
 ### Simulación industrial
-* [Ejemplo de línea de terminado de Tesla Motors](https://github.com/open-studIO/casos_practicos/blob/master/simulacion_industrial/ejemplo_linea_tesla/ejemplo_simulacion.ipynb)
+* [Línea de terminado de Tesla Motors](https://github.com/open-studIO/casos_practicos/blob/master/simulacion_industrial/ejemplo_linea_tesla/ejemplo_simulacion.ipynb)
 
 ### Cadenas de Markov
-* [TODO]
+* [Algoritmo PageRank](https://github.com/open-studIO/casos_practicos/blob/master/markov/pagerank.ipynb)
 
 ### Filas de espera
 * [Caso Carrefour I: Filas M/M/1 vs. M/M/S Analíticos](https://github.com/open-studIO/casos_practicos/blob/master/filas_de_espera/ejemplo_carrefour/mm1vsmms_analitico.ipynb)
