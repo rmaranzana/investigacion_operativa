@@ -1,5 +1,4 @@
-# harb-OR
-## *Casos prácticos sobre Investigación Operativa*
+# *Casos prácticos de Investigación Operativa*
 Este repositorio contiene casos prácticos, implementaciones didácticas y ejercicios relacionados con el campo de la Investigación Operativa. Los casos fueron resueltos usando Jupyter Notebook en Python y no tienen el objetivo de ser implementaciones con código optimizado.
 
 ## Contenido:
